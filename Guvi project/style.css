@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(8, 8, 8);
+    display:-webkit-flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 100vh;
+    margin: 0 auto;
+}
+.container {
+    height: 600px;
+    width: 500px;
+    background-image: linear-gradient(to right,
+    rgb(165, 228, 246),
+    rgb(166, 98, 163));
+    box-shadow: 8px 8px 20px rgb(237, 223, 223);
+    position: relative;
+    overflow: hidden;
+}
+
+  
+.btn {
+    height: 60px;
+    width: 300px;
+    margin: 20px auto;
+    background-image: linear-gradient(to right,rgb(239, 232, 243),rgb(12, 153, 181));
+    box-shadow: 10px 10px 30px rgb(8, 8, 8);
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+  
+.login,
+.register {
+    font-size: 22px;
+    border: rgb(253, 253, 253);
+    outline: black;
+    background-color: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.msg{
+    font-size: 18px;
+    position: relative;
+    top: -80px;
+    vertical-align: text-top(20px);
+
+}
+.msg1{
+    position: relative;
+    top: 20px;
+
+}
+input{
+    background-color: white;
+    border: 6px 8px;
+    margin: 8px 19px;
+    padding: 12px 15px;
+    width: 70%;
+}  
+.login-container,
+.sign-up-container{
+    height: fit-content;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 80px;
+}
+  
+.login-container {
+
+    gap: 50px;
+}
+  
+.sign-up-container {
+    gap: 30px;
+}
+.clkbtn {
+    height: 60px;
+    width: 150px;
+    border-radius: 50px;
+    background-image: linear-gradient(to left,
+            rgb(179, 11, 109),
+            rgb(166, 98, 163));
+    font-size: 22px;
+    border: rgb(8, 8, 7);
+    position: relative;
+    cursor: pointer;
+
+}
+  
+@media screen and (max-width: 650px) {
+    .container {
+        height: 600px;
+        width: 300px;
+    }
+  
+    .title {
+        font-size: 15px;
+    }
+  
+    .btn {
+        height: 50px;
+        width: 200px;
+        margin: 20px auto;
+    }
+  
+    
+  
+    .login-container,
+    .sign-up-container {
+        height: 100%;
+        width: 300px;
+    }
+  
+    
+  
+    .clkbtn {
+        height: 50px;
+        width: 130px;
+        font-size: 19px;
+    }
+}
+  
+
+    
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body.index{
+    background-color: bisque;
+    font-weight: bold;
+    font-style: italic;
+
+}
+*{
+    margin: 0;
+    padding: 0
+}
+.navtop {
+        background-color: #2f3947;
+        align-content: top(-80px);
+        height: 60px;
+        width: 100%;
+        border: 0;
+    }
+.navtop div {
+        display: flex;
+        margin: 0 auto;
+        width: 1000px;
+        height: 100%;
+    }
+    .navtop div h1, .navtop div a {
+        display: inline-flex;
+        align-items: center;
+    }
+    .navtop div h1 {
+        flex: 1;
+        font-size: 24px;
+        padding: 0;
+        margin: 0;
+        color: #eaebed;
+        font-weight: normal;
+    }
+    .navtop div a {
+        padding: 0 20px;
+        text-decoration: none;
+        color: #c1c4c8;
+        font-weight: bold;
+    }
+    .navtop div a i {
+        padding: 2px 8px 0 0;
+    }
+    .navtop div a:hover {
+        color: #eaebed;
+    }
+    body.loggedin {
+        background-color: #c1f0f8;
+    }
+    .content {
+        width: 1000px;
+        margin: 0 auto;
+    }
+    .content h2 {
+        margin: 0;
+        padding: 25px 0;
+        font-size: 22px;
+        border-bottom: 1px solid #e0e0e3;
+        color: #4a536e;
+    }
+    .content > p, .content > div {
+        box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
+        margin: 25px 0;
+        padding: 25px;
+        background-color: #fff;
+    }
+    .content > p table td, .content > div table td {
+        padding: 5px;
+    }
+    .content > p table td:first-child, .content > div table td:first-child {
+        font-weight: bold;
+        color: #4a536e;
+        padding-right: 15px;
+    }
+    .content > div p {
+        padding: 5px;
+        margin: 0 0 10px 0;
+    }
+    .h1{
+        text-align: center;
+    }
+    .table{
+        ruby-align: center;
+    }
+    .body{
+    background-color: rgb(228, 102, 161);
+    display:-webkit-flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 100vh;
+    margin: 0 auto;
+    align-content: center;
+    }
+
+
+
+
